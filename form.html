@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tutorial_test</title>
+  </head>
+  <body>
+    <a href="index.html">Home</a>
+    <a href="git.html">Git Syntax</a>
+    <a href="form.html">Form Page</a>
+    <hr />
+    <br />
+    <form action="">
+      <fieldset>
+        <legend>Personal Info</legend>
+        <p>
+          <label for="firstName">First Name</label>
+          <input
+            type="text"
+            title="firstName"
+            id="firstName"
+            name="firstName"
+            placeholder="Uchenna"
+            required
+          />
+        </p>
+        <p>
+          <label for="lastName">Last Name</label>
+          <input
+            type="text"
+            title="lastName"
+            id="lastName"
+            name="lastName"
+            placeholder="Godwin"
+            required
+          />
+        </p>
+        <p>
+          <label for="gender">Gender</label>
+          <input type="radio" title="gender" name="genderType" value="male" />
+          Male
+          <input type="radio" title="gender" name="genderType" value="female" />
+          Female
+        </p>
+        <p>
+          <label for="carOwnership">Do you own a car?</label><br />
+          <input
+            type="checkbox"
+            title="carOwnership"
+            name="checkCar"
+            value="yes"
+          />
+          Yes
+          <input
+            type="checkbox"
+            title="carOwnership"
+            name="checkCar"
+            value="no"
+          />
+          No
+          <input
+            type="checkbox"
+            title="carOwnership"
+            name="checkCar"
+            value="almost"
+          />
+          Almost
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Country Info</legend>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="Togo">Togo</option>
+          <option value="Ghana">Ghana</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Venezuela">Venezuela</option>
+        </select>
+      </fieldset>
+    </form>
+  </body>
+</html>
